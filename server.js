@@ -23,7 +23,7 @@ app.listen(PORT, function(){
 
 
 //====================== ROUTING SETUP ====================== 
-// require("./app/routing/apiRoutes")(app);
+require("./app/routing/apiRoutes")(app);
 require("./app/routing/htmlRoutes")(app);
 
 

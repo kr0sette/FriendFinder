@@ -7,12 +7,12 @@ var bodyParser = require("body-parser");
 //Create an express server
 var app = express();
 
+//Set port
+var PORT = process.env.PORT || 7030;
+
 //Sets up the Express app to handle data parsing
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-
-//Set port
-var PORT = process.env.PORT || 8080;
 
 //Start server with a listener
 app.listen(PORT, function(){
@@ -23,12 +23,12 @@ app.listen(PORT, function(){
 
 
 //====================== ROUTING SETUP ====================== 
-var apiR = require("./app/routing/apiRoutes");
-var htmlR= require("./app/routing/htmlRoutes");
+// require("./app/routing/apiRoutes")(app);
+require("./app/routing/htmlRoutes")(app);
 
 
 //====================== /ROUTING SETUP ====================== 
 
 //Routing?
 //apiroutes.js
-//htmlroutes.js?
+//htmlroutes.js

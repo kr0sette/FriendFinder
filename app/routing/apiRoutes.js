@@ -12,6 +12,7 @@ module.exports = function(app){
     //POST request that adds to the friend.js data when user submits through form
     app.post("/api/friendsdata", function(req, res){
         friends.push(req.body);
+        //Also include compatibility calculations here
     });
 
 

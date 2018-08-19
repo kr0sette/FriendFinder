@@ -28,7 +28,3 @@ require("./app/routing/htmlRoutes")(app);
 
 
 //====================== /ROUTING SETUP ====================== 
-
-//Routing?
-//apiroutes.js
-//htmlroutes.js

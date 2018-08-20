@@ -9,9 +9,15 @@ module.exports = function(app){
         res.json(friends);
     });
 
-    //POST request that adds to the friend.js data when user submits through form
+    //POST request that receives webform data and directs it accordingly....
     app.post("/api/friendsdata", function(req, res){
-        friends.push(req.body);
+        var formData = req.body;
+        console.log("This is form data" + formData.scores);
+        for(i=0; i < friends.length; i++){
+            console.log(friends[i].scores);
+        }
+        //adds newFriend data into the existing friendsList array in friends.js
+        // friends.push(req.body);
         //Also include compatibility calculations here
     });
 

@@ -11,19 +11,23 @@ module.exports = function(app){
 
     //POST request that receives webform data and directs it accordingly....
     app.post("/api/friendsdata", function(req, res){
-        var formData = req.body;
-    //    console.log(formData.scores);
-        var 
-        for(i=0; i < formData.scores.length; i++){
-            console.log(formData.scores[i]);
-        };
-        for(i=0; i < friends.length; i++){
-                for(j=0; j < friends[i].scores.length; j++){
-                    console.log(friends[i].scores[j]);
-                }
-            console.log("=====");
+        var formScores = req.body.scores;
+        // var totalDifference = 0;
 
+        //Loops through all stored friends
+        for(i=0; i < friends.length; i++){
+            var diffArray = [];
+                for(j=0; j < formScores.length; j++){
+                    var storedScore = parseInt(friends[i].scores[j]);
+                    var userScore = parseInt(formScores[j]);
+                    var diff = Math.abs(userScore - storedScore);
+                    diffArray.push(diff);
+                    
+                }
+            console.log("diffArray " + diffArray);
+            console.log("===");
         }
+
 
         //adds newFriend data into the existing friendsList array in friends.js
         // friends.push(req.body);

@@ -42,17 +42,27 @@ module.exports = function(app){
                 // console.log("===");
         }
         console.log("totalDiffs " + totalDiffs);
-
-
         //adds newFriend data into the existing friendsList array in friends.js
         // friends.push(req.body);
-        //Also include compatibility calculations here
+
 
 //=============LOGIC FOR MATCHING MATCHING WITH A PERSON =============
+        //Grabs the smallest value in the totalDiffs array and stores the index number of its position within the array in variable min
         var min = totalDiffs.indexOf(Math.min.apply(null, totalDiffs));
-        console.log(min);
+        //Stores best matched friend data
+        var match = friends[min];
+        //Returns friend JSON data to survey page
+        res.json(match);
+        //Prints the name of the friend with the matching position in the array
         console.log(friends[min].name);
 
+
+
+
+
+
+
+        
     });
 
 

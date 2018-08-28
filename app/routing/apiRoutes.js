@@ -41,7 +41,7 @@ module.exports = function(app){
             totalDiffs.push(diffArray.reduce(reducer));
                 // console.log("===");
         }
-        console.log("totalDiffs " + totalDiffs);
+        // console.log("totalDiffs " + totalDiffs);
         //adds newFriend data into the existing friendsList array in friends.js
         // friends.push(req.body);
 
@@ -54,7 +54,7 @@ module.exports = function(app){
         //Returns friend JSON data to survey page
         res.json(match);
         //Prints the name of the friend with the matching position in the array
-        console.log(friends[min].name);
+        // console.log(friends[min].name);
 
 
 

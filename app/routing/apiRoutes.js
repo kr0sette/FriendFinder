@@ -47,6 +47,12 @@ module.exports = function(app){
         //adds newFriend data into the existing friendsList array in friends.js
         // friends.push(req.body);
         //Also include compatibility calculations here
+
+//=============LOGIC FOR MATCHING MATCHING WITH A PERSON =============
+        var min = totalDiffs.indexOf(Math.min.apply(null, totalDiffs));
+        console.log(min);
+        console.log(friends[min].name);
+
     });
 
 

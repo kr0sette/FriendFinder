@@ -2,8 +2,8 @@
 //New data on new friends will be pushed to this array
 var friendsList = [
     {
-        "name": "Ahmed",
-        "photo": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAq7AAAAJDAwYzI4NTQ4LWYwZWUtNGFkYS1hNTYwLTZjYzkwY2ViZDA3OA.jpg",
+        "name": "Spongebob Squarepants",
+        "photo": "https://www.freeiconspng.com/uploads/spongebob-squarepants-transparent-background-19.png",
         "scores": [
             "5",
             "1",
@@ -18,8 +18,8 @@ var friendsList = [
         ]
     },
     {
-        "name": "Jacob Deming",
-        "photo": "https://pbs.twimg.com/profile_images/691785039043022849/oWsy8LNR.jpg",
+        "name": "Rick Sanchez",
+        "photo": "https://78.media.tumblr.com/f8a5a3fa8251cc96eef20471eb5c6613/tumblr_ntbzijxVLA1rccw2io1_400.jpg",
         "scores": [
             "4",
             "2",
@@ -34,8 +34,8 @@ var friendsList = [
         ]
     },
     {
-        "name": "Jeremiah Scanlon",
-        "photo": "https://avatars2.githubusercontent.com/u/8504998?v=3&s=460",
+        "name": "Marceline",
+        "photo": "https://78.media.tumblr.com/af9182f2149a328abd9654f33ebe6597/tumblr_nnszcxYRiF1tumicto1_250.png",
         "scores": [
             "5",
             "2",
@@ -50,8 +50,8 @@ var friendsList = [
         ]
     },
     {
-        "name": "Louis T. Delia",
-        "photo": "https://pbs.twimg.com/profile_images/639214960049000449/lNCRC-ub.jpg",
+        "name": "Jesus Christ",
+        "photo": "http://www.pngonly.com/wp-content/uploads/2017/05/Jesus-Christ-200x200-PNG.png",
         "scores": [
             "3",
             "3",
@@ -66,8 +66,8 @@ var friendsList = [
         ]
     },
     {
-        "name": "Lou Ritter",
-        "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAkDAAAAJDhhZTI5NTk2LWQzZjUtNDJjZi1hMTM2LTQ3ZjNmYjE0YmY2NA.jpg",
+        "name": "Moby",
+        "photo": "https://static.514-billets.com/artist/mob/s1/moby-200x200.jpg",
         "scores": [
             "4",
             "3",
@@ -82,8 +82,8 @@ var friendsList = [
         ]
     },
     {
-        "name": "Jordan Biason",
-        "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAisAAAAJGUxYzc4YzA0LWQxMzUtNGI4NS04YTFiLTkwYzM0YTZkNzA2NA.jpg",
+        "name": "Queen Elizabeth II",
+        "photo": "https://pbs.twimg.com/profile_images/442010722785308672/PiqRXDwt.jpeg",
         "scores": [
             "4",
             "4",
@@ -98,8 +98,8 @@ var friendsList = [
         ]
     },
     {
-        "name": "Jobe K Range",
-        "photo": "https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjI4sCVv_jcAhWRCHwKHTeMCYgQjRx6BAgBEAU&url=https%3A%2F%2Fwww.pexels.com%2Fphoto%2Fartistic-blossom-bright-clouds-207962%2F&psig=AOvVaw3oJZ6Nchlz7A7S_5S-iXc_&ust=1534746710093310",
+        "name": "Han Solo",
+        "photo": "https://i.pinimg.com/236x/72/45/a7/7245a77d2c8740c97d6dd0f4883414f1--harrison-ford-star-wars-stuff.jpg",
         "scores": [
             "1",
             "1",
@@ -114,8 +114,8 @@ var friendsList = [
         ]
     },
     {
-        "name": "carmen",
-        "photo": "http://carmen.soy/images/me2.png",
+        "name": "George R. R. Martin",
+        "photo": "http://thrillerfest.com/wp-content/uploads/2010/08/rrmartin3.jpg",
         "scores": [
             "2",
             "1",
@@ -130,8 +130,8 @@ var friendsList = [
         ]
     },
     {
-        "name": "jimmy",
-        "photo": "sdlfasdklfasf;",
+        "name": "Salt Bae",
+        "photo": "https://pbs.twimg.com/profile_images/835940654509342724/chujJdF__400x400.jpg",
         "scores": [
             "4",
             "3",
@@ -146,8 +146,8 @@ var friendsList = [
         ]
     },
     {
-        "name": "DUClass",
-        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXgC9r0UOJG4WO8tk6b0YhrOO2XemavTDJmh4lRg7R1_8KRpkj",
+        "name": "Ryan Gosling",
+        "photo": "http://picture-cdn.wheretoget.it/9/r/9r8pcs.jpg",
         "scores": [
             "1",
             "1",
@@ -162,8 +162,8 @@ var friendsList = [
         ]
     },
     {
-        "name": "Eric",
-        "photo": "https://github.com/ekorslin",
+        "name": "Giorgio A. Tsoukalos",
+        "photo": "https://i.ytimg.com/vi/frRcD7rlvUA/hqdefault.jpg",
         "scores": [
             "5",
             "5",
@@ -178,8 +178,8 @@ var friendsList = [
         ]
     },
     {
-        "name": "Frank",
-        "photo": "www.google.com",
+        "name": "Regina George",
+        "photo": "http://www.postavy.cz/foto/regina-george-foto.jpg",
         "scores": [
             "3",
             "3",
@@ -194,8 +194,8 @@ var friendsList = [
         ]
     },
     {
-        "name": "Jack Ryan",
-        "photo": "https://vignette.wikia.nocookie.net/rickandmorty/images/0/05/Maximus_Renegade_Starsoldier.jpg/revision/latest?cb=20170814090739",
+        "name": "Sarah Palin",
+        "photo": "http://entertainment.ie//images_content/200X200/Palin.jpg",
         "scores": [
             "3",
             "1",
@@ -210,8 +210,8 @@ var friendsList = [
         ]
     },
     {
-        "name": "Vaughn Marques",
-        "photo": "https://static.vinepair.com/wp-content/uploads/2017/06/ind-internal.jpg",
+        "name": "Tom Anderson",
+        "photo": "https://res-1.cloudinary.com/crunchbase-production/image/upload/c_thumb,h_256,w_256,f_auto,g_faces,z_0.7,q_auto:eco/v1397180993/78585011345553b0a4d09ad91bbe41eb.jpg",
         "scores": [
             "2",
             "2",

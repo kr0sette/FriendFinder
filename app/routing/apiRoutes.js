@@ -53,14 +53,8 @@ module.exports = function(app){
         var match = friends[min];
         //Returns friend JSON data to survey page
         res.json(match);
-        //Prints the name of the friend with the matching position in the array
-        // console.log(friends[min].name);
 
-
-
-
-
-
+        friends.push(req.body);
 
         
     });

@@ -198,7 +198,6 @@
             //When submit button is clicked
             $("#submit").on("click", function(event){
                 event.preventDefault();
-                console.log($("#name").val());
                 //Validate form data to make sure user includes at least a name and a photo
                 if ($("#name").val() === "" || $("#photo").val() === ""){
                     alert("Please provide your name and a picture.");
